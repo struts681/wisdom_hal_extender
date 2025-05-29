@@ -35,4 +35,6 @@ int w_radio_broadcast(
 	ptrdiff_t buffer_size
 );
 
+int w_radio_get_rssi(int16_t *rssi);
+
 #endif // WHALE_RADIO_INTERFACE_H
