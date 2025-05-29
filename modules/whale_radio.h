@@ -2,6 +2,7 @@
 #define WHALE_RADIO_INTERFACE_H
 
 #include <stddef.h>
+#include <stdint.h>
 
 enum w_radio_error {
 	W_RADIO_OK,
