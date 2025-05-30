@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.13)
 
-set(target "wisdom_hal_extension")
+set(target "wisdom_hal_extender")
 project(${target} C CXX ASM)
 
 add_library(${target} INTERFACE)
