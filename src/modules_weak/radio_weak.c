@@ -16,6 +16,7 @@ _WEAK_ int w_radio_subnet_address_set(int sub_address) { return UNIMPLEMENTED; }
 _WEAK_ int w_radio_subnet_address_get(int *sub_address) { return UNIMPLEMENTED; }
 
 _WEAK_ int w_radio_rssi_get(int *rssi) { return UNIMPLEMENTED; }
+_WEAK_ int w_radio_dbm_set(int dbm) { return UNIMPLEMENTED; }
 
 _WEAK_ int w_radio_tx(
 	int rx_address,

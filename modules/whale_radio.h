@@ -2,6 +2,7 @@
 #define WHALE_RADIO_INTERFACE_H
 
 #include <stddef.h>
+#include <stdint.h>
 
 enum w_radio_error {
 	W_RADIO_OK,
@@ -18,6 +19,8 @@ int w_radio_subnet_address_set(int sub_address);
 int w_radio_subnet_address_get(int *sub_address);
 
 int w_radio_rssi_get(int *rssi);
+
+int w_radio_dbm_set(int dbm);
 
 int w_radio_tx(
 	int rx_address,
