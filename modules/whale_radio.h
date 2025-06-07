@@ -19,6 +19,7 @@ int w_radio_subnet_address_set(int sub_address);
 int w_radio_subnet_address_get(int *sub_address);
 
 int w_radio_rssi_get(int *rssi);
+int w_radio_rtr_count_get(int *rtr_count);
 
 int w_radio_dbm_set(int dbm);
 
